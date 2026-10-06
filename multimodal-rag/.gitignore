@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+.pytest_cache/
+chroma_db/
+.DS_Store
+chroma_store/
+extracted_images/
+.vscode

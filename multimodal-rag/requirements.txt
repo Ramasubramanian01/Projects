@@ -1,0 +1,24 @@
+# ── PDF Parsing ──────────────────────────────────────────────────
+pymupdf==1.24.5              # extract text, images, tables from PDF
+
+# ── Embeddings ───────────────────────────────────────────────────
+openai==1.35.0               # text-embedding-ada-002 + GPT-4o
+transformers==4.41.2         # CLIP model for image embeddings
+torch==2.3.1                 # required by transformers/CLIP
+Pillow==10.3.0               # image processing
+
+# ── Vector Store ─────────────────────────────────────────────────
+chromadb==0.5.3              # local vector database
+
+# ── API Layer ────────────────────────────────────────────────────
+fastapi==0.111.0             # REST API framework
+uvicorn==0.30.1              # ASGI server to run FastAPI
+
+# ── Frontend ─────────────────────────────────────────────────────
+streamlit==1.35.0            # UI for uploading PDF and querying
+
+# ── Utilities ────────────────────────────────────────────────────
+python-dotenv==1.0.1         # load .env variables (API keys)
+python-multipart==0.0.9      # handle file uploads in FastAPI
+pandas==2.2.2                # table handling
+numpy==1.26.4                # numerical operations
